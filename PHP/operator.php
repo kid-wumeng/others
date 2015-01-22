@@ -34,14 +34,18 @@
     1 <= '1';  // true
 
 
-    true && false;   // false
-    true and false;  // false（效果同上）
+    // 与
+    true && false;
+    true and false;
 
-    true || false;   // true
-    true or false;   // true（效果同上）
+    // 或
+    true || false;
+    true or false;
 
-    !true;           // false
+    // 非
+    !true;
 
-    true xor false;  // true
+    // 异或
+    true xor false;
 
 ?>
