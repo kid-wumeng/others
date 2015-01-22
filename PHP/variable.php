@@ -2,14 +2,12 @@
 
     // 变量
     $abc = 1;
-
     // 常量
     define('ABC', 1);
 
 
     // 输出参数（性能高，可多值）
     echo 1,2,3;
-
     // 输出参数（仅单值，但可用于复杂表达式）
     print 1;
     $abc ? print 'true' : print 'false';
@@ -21,7 +19,6 @@
 
     // 判断变量是否已存在（同时必须不为null）
     isset($abc);
-
     // 释放变量
     unset($abc);
 
