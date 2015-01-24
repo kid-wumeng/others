@@ -11,6 +11,7 @@
     }
 
 
+
     /* $var会自动转换为case对应的类型再比较 */
     switch ( $var ) {
         case 1:
@@ -26,10 +27,12 @@
     }
 
 
+
     for ( $i = 0; $i < 10; $i++ ) {
         /* ... */
     }
     // $i用完后仍存在，这里为10
+
 
 
     $i = 0;
@@ -39,14 +42,15 @@
     }
 
 
+
     $i = 0;
     do {
         /* ... */
         $i++;
     } while ( $i < 10 );
 
-
     /* for, while, do-while中皆可使用continue与break */
+
 
 
     goto Label;
