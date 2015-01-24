@@ -33,7 +33,7 @@
      * 调用方则依靠list接收返回值
      */
 
-    list($a,$b) = func_3();
+    list($a,$b,$c) = func_3();
     echo $a;  // 1
     echo $b;  // 2
     echo $c;  // 3
