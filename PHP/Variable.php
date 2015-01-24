@@ -38,6 +38,7 @@
     // 布尔型
     $bool = true;
     $bool = false;
+
     /*
      * true与false不区分大小写
      * 输出到页面时，true转换为1，false不会输出
