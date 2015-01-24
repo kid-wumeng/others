@@ -40,7 +40,7 @@
     date_default_timezone_get();
 
 
-    date('Y-m-d H:i:s');  // 当前时间
+    date('Y-m-d H:i:s');              // 当前时间
     date('Y-m-d H:i:s', 1422106832);  // UNIX时间戳（第二个参数）指定的时间
 
 ?>
