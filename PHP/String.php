@@ -23,9 +23,10 @@
     nl2br("hello \n world");         // hello <br /> world
     nl2br("hello \n world", false);  // hello <br> world
 
-
-    urlencode('http://www.kid.me/index.php?name=kid&age=18');                  // url编码
-    urldecode('http%3A%2F%2Fwww.kid.me%2Findex.php%3Fname%3Dkid%26age%3D18');  // url解码
+    // url编码
+    urlencode('http://www.kid.me/index.php?name=kid&age=18');
+    // url解码
+    urldecode('http%3A%2F%2Fwww.kid.me%2Findex.php%3Fname%3Dkid%26age%3D18');
 
 
     // 求字符串长度
