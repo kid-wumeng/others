@@ -18,6 +18,8 @@
     'hello \n world';  // hello \n world
     "hello \n world";  // hello world
 
+
+    // 换行符 -> 换行标签（必须在双引号中）
     nl2br("hello \n world");         // hello <br /> world
     nl2br("hello \n world", false);  // hello <br> world
 
@@ -45,6 +47,7 @@
 
     // 提取子串
     substr('kid.wumeng@gmail.com', 4);  // 提取子串：wumeng@gmail.com
+    substr('kid.wumeng@gmail.com', 4, 6);  // 提取子串：wumeng
 
 
     // 字符串 -> 数组
