@@ -32,9 +32,14 @@
     urldecode('http%3A%2F%2Fwww.kid.me%2Findex.php%3Fname%3Dkid%26age%3D18');
 
 
-    strlen('kid');  // 求字符串长度：3
-    strpos('kid.wumeng@gmail.com', 'gmail');       // 定位第一次出现的位置：11
-    str_replace('b', '*', 'abc abc abc', $count);  // 替换子串：'a*c abc a*c'（$count = 3，替换了3个，可选）
+    // 求字符串长度
+    strlen('kid');  // 3
+
+    // 定位第一次出现的位置
+    strpos('kid.wumeng@gmail.com', 'gmail');  // 11
+
+    // 替换子串（$count记录替换了几个，可选）
+    str_replace('b', '*', 'abc abc abc', $count);  // 'a*c abc a*c' ($count = 3)，
 
     strstr('kid.wumeng@gmail.com', 'gmail');  // 提取子串：'gmail.com'
     substr('kid.wumeng@gmail.com', 4);        // 提取子串：wumeng@gmail.com
