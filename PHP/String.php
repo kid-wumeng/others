@@ -1,5 +1,6 @@
 <?php
 
+
     // 连接字符串
     $name = 'kid';
     'I am ' . $name;
@@ -68,5 +69,6 @@
      * strpos - stripos
      * strstr - stristr
      */
+
 
 ?>
