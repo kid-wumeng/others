@@ -23,6 +23,7 @@
     nl2br("hello \n world");         // hello <br /> world
     nl2br("hello \n world", false);  // hello <br> world
 
+
     // url编码
     urlencode('http://www.kid.me/index.php?name=kid&age=18');
     // url解码
