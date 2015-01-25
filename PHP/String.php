@@ -54,6 +54,7 @@
     explode(',', 'Comic,Music,Sport');     // array('Comic','Music','Sport')
     explode(',', 'Comic,Music,Sport', 2);  // array('Comic','Music,Sport')
 
+
     // 数组 -> 字符串
     implode(',', array('Comic','Music','Sport'));  // 'Comic,Music,Sport'
     join(',', array('Comic','Music','Sport'));     // 'Comic,Music,Sport'
