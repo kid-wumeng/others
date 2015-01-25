@@ -21,7 +21,6 @@
 
 
 
-
     // 换行符 -> 换行标签（必须在双引号中）
     nl2br("hello \n world");         // hello <br /> world
     nl2br("hello \n world", false);  // hello <br> world
