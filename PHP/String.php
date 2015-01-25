@@ -38,11 +38,6 @@
 
     // 定位第一次出现的位置
     strpos('kid.wumeng@gmail.com','gmail');  // 11
-    strpos('kid.wumeng@gmail.com','163');  // false
-
-
-    // 定位第一次出现的位置，提取其之前的子串
-    strtok('kid.wumeng@gmail.com', '@');  // kid.wumeng
 
 
     // 定位第一次出现的位置，提取从其开始的子串
@@ -66,5 +61,12 @@
 
     // 替换子串（$count记录替换了多少，可选）
     str_replace('b', '*', 'abc abc abc', $count);   // a*c abc a*c（$count = 3）
+
+
+    /*
+     * 不区分大小写的版本：
+     * strpos - stripos
+     * strstr - stristr
+     */
 
 ?>
