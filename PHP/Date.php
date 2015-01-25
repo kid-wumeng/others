@@ -43,4 +43,28 @@
     date('Y-m-d H:i:s');              // 当前时间
     date('Y-m-d H:i:s', 1422106832);  // UNIX时间戳（第二个参数）指定的时间
 
+
+    time();                     // 当前时间戳
+    mktime(12,30,0,11,5,2009);  // 指定的时间戳，参数：时，分，秒，月（1~12），日，年
+
+
+    /* 根据一定格式获取时间戳 */
+
+    strtotime('2015-01-25');
+    strtotime('2015-01-25 08:05:25');
+    strtotime('2015-1-25 8:5:25');
+
+    strtotime('+3 year');
+    strtotime('+3 month');
+    strtotime('+3 day');
+    strtotime('+3 hour');
+    strtotime('+3 minute');
+    strtotime('+3 second');
+    strtotime('+3 week');
+
+    strtotime('-3 year');
+
+    strtotime('+3 years');
+    strtotime('-3 years');
+
 ?>
