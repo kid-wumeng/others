@@ -35,15 +35,19 @@
     // 求字符串长度
     strlen('kid');  // 3
 
+
     // 定位第一次出现的位置
     strpos('kid.wumeng@gmail.com', 'gmail');  // 11
+
 
     // 替换子串（$count记录替换了几个，可选）
     str_replace('b', '*', 'abc abc abc', $count);  // 'a*c abc a*c' ($count = 3)，
 
-    strstr('kid.wumeng@gmail.com', 'gmail');  // 提取子串：'gmail.com'
-    substr('kid.wumeng@gmail.com', 4);        // 提取子串：wumeng@gmail.com
-    substr('kid.wumeng@gmail.com', 4, 6);     // 提取子串：wumeng
+
+    // 提取子串
+    strstr('kid.wumeng@gmail.com', 'gmail');  // 'gmail.com'
+    substr('kid.wumeng@gmail.com', 4);        // 'wumeng@gmail.com'
+    substr('kid.wumeng@gmail.com', 4, 6);     // 'wumeng'
 
 
     // 字符串 -> 数组
