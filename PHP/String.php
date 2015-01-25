@@ -5,6 +5,8 @@
     'I am ' . $name;
 
 
+
+
     /*
      * 单引号：绝对字面量
      * 双引号：会先计算变量、转义字符
@@ -17,6 +19,8 @@
 
     'hello \n world';  // hello \n world
     "hello \n world";  // hello world
+
+
 
 
     // 换行符 -> 换行标签（必须在双引号中）
