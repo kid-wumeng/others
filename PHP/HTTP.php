@@ -1,12 +1,13 @@
 <?php
 
-    ob_start();  // 开始缓存，下面的字符串暂不发送
-    echo 'hello world ~ !';
+
+    /* 开始缓存 */
+    ob_start();
+    echo 'hello world ~ !';  // 暂不发送
 
 
 
     /* HTTP头信息 */
-
     header('Location: assist/new.php');  // 跳转
     exit;                                // 停止之后的脚本
 
@@ -14,7 +15,6 @@
 
 
     /* Cookie */
-
     setcookie('name');         // name = null
     setcookie('name', 'kid');  // name = kid
 
@@ -29,7 +29,6 @@
 
 
     /* Session */
-
     session_start();    // 无论作何操作，都必须先start
 
     $_SESSION['name'] = 'kid';  // 设置
@@ -39,8 +38,9 @@
     session_destroy();  // 销毁整个session
 
 
-    ob_end_flush();  // 发送积累的缓存数据
-    ob_end_clean();  // 不发送，销毁缓存数据
+    // 处理缓存
+    ob_end_flush();  // 发送
+    ob_end_clean();  // 不发送
 
 
 
