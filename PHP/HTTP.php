@@ -15,6 +15,7 @@
 
 
     /* Cookie */
+
     setcookie('name');         // name = null
     setcookie('name', 'kid');  // name = kid
 
@@ -29,6 +30,7 @@
 
 
     /* Session */
+
     session_start();    // 无论作何操作，都必须先start
 
     $_SESSION['name'] = 'kid';  // 设置
@@ -36,6 +38,7 @@
     unset($_SESSION['name']);   // 删除
 
     session_destroy();  // 销毁整个session
+
 
 
     // 处理缓存
