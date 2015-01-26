@@ -13,7 +13,6 @@
 
 
 
-
     /* Cookie */
 
     setcookie('name');         // name = null
