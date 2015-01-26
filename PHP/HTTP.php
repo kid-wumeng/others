@@ -12,6 +12,7 @@
 
 
 
+
     /* Cookie */
 
     setcookie('name');         // name = null
@@ -23,6 +24,7 @@
     setcookie('name', null, time()-1, '/user/', 'bbs.web.com');
 
     $_COOKIE['name'];  // 读取（但赋值无效）
+
 
 
 
