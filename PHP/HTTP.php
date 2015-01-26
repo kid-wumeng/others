@@ -5,7 +5,7 @@
      * HTTP头信息
      */
 
-    header('Location: others/new.php');  // 跳转
+    header('Location: assist/new.php');  // 跳转
     exit;                                // 停止之后的脚本
 
 
@@ -43,18 +43,6 @@
     // header、cookie、session等操作，都必须在未发送任何html文本（甚至空白）之前调用
     // php.ini的output_buffering可全局配置输出缓存
     // 默认在开发者模式下，打开输出缓存
-
-
-
-    // 引入文件，若遇到BUG，仍执行之后的脚本
-    include 'others/header.html';
-
-    // 引入文件，若遇到BUG，不执行之后的脚本
-    require 'others/header.html';
-
-    // 同一文件，重复引用只算一次
-    include_once 'others/header.html';
-    require_once 'others/header.html';
 
 
 ?>
