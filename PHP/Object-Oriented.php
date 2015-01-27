@@ -2,7 +2,7 @@
 
     class ParentClass
     {
-        public $var_1;  // public可换成var
+        public $var_1;     // public可换成var
         protected $var_2;
         private $var_3;
 
@@ -22,7 +22,6 @@
         protected function func_2(){}
         private function func_3(){}
         public static function func_static(){}  // public可不加
-
     }
 
 
