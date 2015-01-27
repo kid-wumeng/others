@@ -25,9 +25,11 @@
     }
 
 
+
     class ChildClass extends ParentClass {
         public $var_1 = 'child';
     }
+
 
 
     // 访问静态成员
