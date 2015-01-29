@@ -1,5 +1,6 @@
 <?php
 
+
     require_once 'assist/smarty/libs/Smarty.class.php';
 
 
@@ -16,6 +17,7 @@
     $smarty->debugging = false;
 
 
+
     $smarty->assign('name', 'kid');
 
     $smarty->assign('array_1', array(1,2,3));
@@ -29,6 +31,8 @@
     ));
 
 
+
     $smarty->display('smarty.html');
+
 
 ?>
