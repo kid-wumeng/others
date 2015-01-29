@@ -2,12 +2,15 @@
 
     require_once 'assist/smarty/libs/Smarty.class.php';
 
+
     $smarty = new Smarty();
+
 
     $smarty->setTemplateDir('assist/view/');
     $smarty->setCompileDir('assist/smarty/templates_c/');
     $smarty->setConfigDir('assist/smarty/configs/');
     $smarty->setCacheDir('assist/smarty/cache/');
+
 
     $smarty->assign('name', 'kid');
     $smarty->assign('array_1', array(1,2,3));
@@ -18,8 +21,10 @@
         array('name'=>'王五', 'age'=>20)
     ));
 
+
     // 是否显示Debug控制台
     $smarty->debugging = false;
+
 
     $smarty->display('smarty.html');
 
