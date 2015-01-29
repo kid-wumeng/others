@@ -6,7 +6,9 @@
 </head>
 <body>
 
+
     <h1>hello {$name} ~ !</h1>
+
 
     <ul>
     {foreach $array_1 as $val}
@@ -14,17 +16,20 @@
     {/foreach}
     </ul>
 
+
     <ul>
     {foreach $array_2 as $key => $val}
         <li>{$key} ： {$val}</li>
     {/foreach}
     </ul>
 
+
     <ul>
     {foreach $array_3 as $man}
         <li>{$man.name}（{$man.age}岁）</li>
     {/foreach}
     </ul>
+
 
 </body>
 </html>
