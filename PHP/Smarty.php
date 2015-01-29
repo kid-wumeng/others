@@ -5,6 +5,8 @@
 
     $smarty = new Smarty();
 
+    // 是否显示Debug控制台
+    $smarty->debugging = false;
 
     $smarty->setTemplateDir('assist/view/');
     $smarty->setCompileDir('assist/smarty/templates_c/');
@@ -20,10 +22,6 @@
         array('name'=>'李四', 'age'=>19),
         array('name'=>'王五', 'age'=>20)
     ));
-
-
-    // 是否显示Debug控制台
-    $smarty->debugging = false;
 
 
     $smarty->display('smarty.html');
