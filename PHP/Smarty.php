@@ -17,8 +17,11 @@
 
 
     $smarty->assign('name', 'kid');
+
     $smarty->assign('array_1', array(1,2,3));
+
     $smarty->assign('array_2', array('name'=>'kid','age'=>18));
+
     $smarty->assign('array_3', array(
         array('name'=>'张三', 'age'=>18),
         array('name'=>'李四', 'age'=>19),
