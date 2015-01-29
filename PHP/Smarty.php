@@ -5,13 +5,15 @@
 
     $smarty = new Smarty();
 
-    // 是否显示Debug控制台
-    $smarty->debugging = false;
 
     $smarty->setTemplateDir('assist/view/');
     $smarty->setCompileDir('assist/smarty/templates_c/');
     $smarty->setConfigDir('assist/smarty/configs/');
     $smarty->setCacheDir('assist/smarty/cache/');
+
+
+    // 是否显示Debug控制台
+    $smarty->debugging = false;
 
 
     $smarty->assign('name', 'kid');
