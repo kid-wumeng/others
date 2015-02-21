@@ -5,6 +5,7 @@ import (
 	io "fmt"  // io作为fmt的别名
 )
 
+
 var a int = 1  // private，只能被本包（包括本包其它文件）访问
 var A int = 1  // public，可被外部包访问
 var b = 2      // 自动类型推导
