@@ -29,8 +29,8 @@ var (
     var_14  byte         // 等同于uint8
     var_15  float32
     var_16  float64
-    var_17  complex64   // 由float32类型的实部和虚部所组成的复数
-    var_18  complex128  // 由float64类型的实部和虚部所组成的复数
+    var_17  complex64    // 由float32类型的实部和虚部所组成的复数
+    var_18  complex128   // 由float64类型的实部和虚部所组成的复数
     var_19  string
 )
 
