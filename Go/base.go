@@ -13,25 +13,25 @@ var b = 2      // 自动类型推导
 
 /* 变量 */
 var (
-    var_1  bool = true  // 默认：false
-    var_2  int
-    var_3  int8
-    var_4  int16
-    var_5  int32
-    var_6  int64
-    var_7  rune  // 等同于int32
-    var_8  uint
-    var_9  uint8
-    var_10 uint16
-    var_11 uint32
-    var_12 uint64
-    var_13 uintptr  // 一个指针值的大小
-    var_14 byte     // 等同于uint8
-    var_15 float32
-    var_16 float64
-    var_17 complex64   // 由float32类型的实部和虚部所组成的复数
-    var_18 complex128  // 由float64类型的实部和虚部所组成的复数
-    var_19 string
+    var_1   bool = true  // 默认：false
+    var_2   int
+    var_3   int8
+    var_4   int16
+    var_5   int32
+    var_6   int64
+    var_7   rune  // 等同于int32
+    var_8   uint
+    var_9   uint8
+    var_10  uint16
+    var_11  uint32
+    var_12  uint64
+    var_13  uintptr  // 一个指针值的大小
+    var_14  byte     // 等同于uint8
+    var_15  float32
+    var_16  float64
+    var_17  complex64   // 由float32类型的实部和虚部所组成的复数
+    var_18  complex128  // 由float64类型的实部和虚部所组成的复数
+    var_19  string
 )
 
 
