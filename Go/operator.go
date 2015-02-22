@@ -32,8 +32,8 @@ func main() {
 	Println( 1 > 2 )     // false
 	Println( 1 >= 2 )    // false
 
-	// 类型别名
+	// 定义类型别名
 	type number float32
 	var b number = 1.5
-	Println(b)
+	Println( b )
 }
