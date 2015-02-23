@@ -82,4 +82,4 @@ func fn( a int ) bool {
 	Println("函数作为参数")
 	return true
 }
-type fn_type func( int ) bool
+type fn_type func(int)bool
