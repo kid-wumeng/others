@@ -27,12 +27,14 @@ type Human struct {
 }
 
 
-
-func (human Human) Program() {
-    human.age = 0  // 值传递，原对象的age不会变
+// 值传递，原对象的age不会变
+func ( human Human ) Program() {
+    human.age = 0  
 }
-func (human *Human) Test() {
-    human.age = 0  // 引用传递，原对象的age会变
+
+// 引用传递，原对象的age会变
+func ( human *Human ) Test() {
+    human.age = 0  
 }
 
 
