@@ -25,6 +25,7 @@ func main() {
 
     fn_8( fn )
 
+
     // 匿名函数
     func() {
         Println("hello world ~ !")
