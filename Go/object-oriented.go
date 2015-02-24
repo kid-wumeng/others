@@ -12,9 +12,11 @@ type Coder interface {
 }
 
 
+
 type Animal struct {
     age int
 }
+
 
 
 // 相当于继承了Animal
@@ -23,6 +25,7 @@ type Human struct {
     Animal
     name string
 }
+
 
 
 func (human Human) Program() {
