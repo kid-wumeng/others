@@ -11,9 +11,11 @@ type Coder interface {
     Test(sth string)
 }
 
+
 type Animal struct {
     age int
 }
+
 
 // 相当于继承了Animal
 // 由于实现了Coder接口的全部方法，所以自动实现了Coder接口
@@ -22,10 +24,10 @@ type Human struct {
     name string
 }
 
+
 func (human Human) Program() {
     human.age = 0  // 值传递，原对象的age不会变
 }
-
 func (human *Human) Test() {
     human.age = 0  // 引用传递，原对象的age会变
 }
