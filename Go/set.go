@@ -19,6 +19,7 @@ func main() {
     slice_4 := array_1[1:]   // 等价于[1:len(arr_1)]
     slice_5 := array_1[:]    // 等价于[0:len(arr_1)]
     slice_6 := append(slice_1, 4, 5)  // [ 1, 2, 3, 4, 5 ]
+    slice_7 := make([]byte, 1024)     // 长度为1024的空slice
 
     array_1[0]  // 1
     slice_2[0]  // 2
